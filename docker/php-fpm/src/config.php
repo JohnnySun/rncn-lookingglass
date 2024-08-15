@@ -2,20 +2,20 @@
 use Hybula\LookingGlass;
 
 // Define the HTML title;
-const LG_TITLE = 'Looking Glass';
+const LG_TITLE = 'RNCN Looking Glass';
 
 // Define a logo, this can be HTML too, see the other example for an image;
-const LG_LOGO = '<h2 style="color: #000000;">Company Looking Glass</h2>';
-const LG_LOGO_DARK = '<h2 style="color: #ffffff;">Company Looking Glass</h2>';
+const LG_LOGO = '<h2 style="color: #000000;">RNCN Looking Glass</h2>';
+const LG_LOGO_DARK = '<h2 style="color: #ffffff;">RNCN Looking Glass</h2>';
 
 // Define the URL where the logo points to;
-const LG_LOGO_URL = 'https://github.com/hybula/lookingglass/';
+const LG_LOGO_URL = 'https://lg.rncn.net/';
 
 // Theme mode;
 const LG_THEME = 'auto';
 
 // Enable the latency check feature;
-const LG_CHECK_LATENCY = true;
+const LG_CHECK_LATENCY = false;
 
 // Define a custom CSS file which can be used to style the LG, set false to disable, else point to the CSS file;
 const LG_CSS_OVERRIDES = false;
@@ -64,13 +64,11 @@ const LG_METHODS = [
 
 // Define other looking glasses, this is useful if you have multiple networks and looking glasses;
 const LG_LOCATIONS = [
-    'Location A' => 'https://github.com/hybula/lookingglass/',
-    'Location B' => 'https://github.com/hybula/lookingglass/',
-    'Location C' => 'https://github.com/hybula/lookingglass/',
+    'Beijing, China' => 'https://lg.rncn.net/pek',
 ];
 
 // Enable the iPerf info inside the speedtest block, set to false to disable;
-const LG_SPEEDTEST_IPERF = true;
+const LG_SPEEDTEST_IPERF = false;
 // Define the label of an incoming iPerf test;
 const LG_SPEEDTEST_LABEL_INCOMING = 'iPerf3 Incoming';
 // Define the command to use to test incoming speed using iPerf, preferable iPerf3;
